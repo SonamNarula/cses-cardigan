@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug active C++ file",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/${fileBasenameNoExtension}",
+      "args": [],
+      "cwd": "${fileDirname}",
+      "preLaunchTask": "C++: build active file",
+      "terminal": "integrated"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/sonamnarula/Desktop/CSES PROBLEM SET",
+      "program": "/Users/sonamnarula/Desktop/CSES PROBLEM SET/build/Debug/outDebug"
+    }
+  ]
+}

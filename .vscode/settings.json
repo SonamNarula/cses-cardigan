@@ -1,0 +1,12 @@
+{
+  "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++-15",
+  "C_Cpp.default.cppStandard": "c++20",
+  "C_Cpp.default.intelliSenseMode": "macos-gcc-arm64",
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && /opt/homebrew/bin/g++-15 -std=c++20 -O2 -Wall -Wextra -Wshadow $fileName -o /tmp/$fileNameWithoutExt && /tmp/$fileNameWithoutExt"
+  },
+  "files.associations": {
+    "*.cpp": "cpp"
+  },
+  "C_Cpp_Runner.msvcBatchPath": ""
+}
