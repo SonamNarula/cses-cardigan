@@ -1,53 +1,8 @@
-// CSES Problem Set
-//                 Missing Number
-// Task
-// Submit
-// Results
-// Statistics
-// Tests
-
-// addEventListener("DOMContentLoaded", function (e) {
-//     const mathElements = document.getElementsByClassName("math");
-//     const macros = {};
-//     for (let element of mathElements) {
-//         katex.render(element.textContent, element, {
-//             displayMode: element.classList.contains("math-display"),
-//             throwOnError: false,
-//             globalGroup: true,
-//             macros,
-//         });
-//     }
-// });
-
-
-// .katex .base:last-child {
-//     display: inline;
-// }
-
-
-// Time limit: 1.00 s
-// Memory limit: 512 MB
-
-// You are given all numbers between 1,2,\ldots,n except one. Your task is to find the missing number.
-// Input
-// The first input line contains an integer n.
-// The second line contains n-1 numbers. Each number is distinct and between 1 and n (inclusive).
-// Output
-// Print the missing number.
-// Constraints
-
-// 2 \le n \le 2 \cdot 10^5
-
-// Example
-// Input:
-// 5
-// 2 3 1 5
-
-// Output:
-// 4
-
-
-
+// Problem: Missing Number
+// Link: https://cses.fi/problemset/task/1083
+// Idea: Subtract the sum of given numbers from the expected sum 1 + 2 + ... + n.
+// Time: O(n)
+// Space: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,3 +1,9 @@
+// Problem: Repetitions
+// Link: https://cses.fi/problemset/task/1069
+// Idea: Scan the string and track the longest run of equal consecutive characters.
+// Time: O(n)
+// Space: O(1)
+
 #include <bits/stdc++.h>
 using namespace std;
 
