@@ -46,17 +46,17 @@ The README aesthetic is intentionally minimal: black, white, soft gray, and a gl
 
 <div align="center">
 
-<img src="https://progress-bar.dev/1/?scale=300&title=solved&width=500&color=111111&suffix=/300" alt="1 out of 300 solved">
+<img src="https://progress-bar.dev/3/?scale=300&title=solved&width=500&color=111111&suffix=/300" alt="3 out of 300 solved">
 
 <br><br>
 
-### `1 / 300` solved
+### `3 / 300` solved
 
 </div>
 
 | section | solved | focus |
 |:--|:--:|:--|
-| introductory problems | `1 / 19` | implementation, simulation, basics |
+| introductory problems | `3 / 19` | implementation, simulation, basics |
 | sorting and searching | `0 / 35` | greedy, binary search, two pointers |
 | dynamic programming | `0 / 19` | states, transitions, recurrence |
 | graph algorithms | `0 / 36` | BFS, DFS, shortest paths |
@@ -74,6 +74,8 @@ The README aesthetic is intentionally minimal: black, white, soft gray, and a gl
 ```text
 CSES PROBLEM SET/
 |-- INTRODUCTORY PROBLEMS/
+|   |--  Missing_Number.cpp
+|   |-- Repititions.cpp
 |   `-- Weird_Algorithm.cpp
 |-- .vscode/
 |   |-- tasks.json
@@ -120,6 +122,8 @@ int main() {
 | # | problem | file | status |
 |:--:|:--|:--|:--:|
 | 1 | Weird Algorithm | [`INTRODUCTORY PROBLEMS/Weird_Algorithm.cpp`](INTRODUCTORY%20PROBLEMS/Weird_Algorithm.cpp) | done |
+| 2 | Missing Number | [`INTRODUCTORY PROBLEMS/ Missing_Number.cpp`](INTRODUCTORY%20PROBLEMS/%20Missing_Number.cpp) | done |
+| 3 | Repetitions | [`INTRODUCTORY PROBLEMS/Repititions.cpp`](INTRODUCTORY%20PROBLEMS/Repititions.cpp) | done |
 
 ---
 
