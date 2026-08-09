@@ -1,65 +1,73 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=190&color=0:1f2933,45:6b705c,100:b5835a&text=CSES%20Problem%20Set&fontColor=f7f3e8&fontSize=42&desc=competitive%20programming%20notes%20from%20the%20folklore%20era&descAlignY=68&descSize=15" alt="CSES Problem Set banner">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:2f2f2f,45:7b7468,100:d8cfc0&text=cses%20problem%20set&fontColor=f8f5ef&fontSize=44&desc=placement%20prep%20in%20my%20folklore%20era&descAlignY=68&descSize=16" alt="cses problem set banner">
 
 <br>
 
-<img src="https://img.shields.io/badge/language-C++20-6b705c?style=for-the-badge&labelColor=2b2b2b&logo=cplusplus&logoColor=f7f3e8" alt="C++20">
-<img src="https://img.shields.io/badge/judge-CSES-b5835a?style=for-the-badge&labelColor=2b2b2b" alt="CSES">
-<img src="https://img.shields.io/badge/goal-placed%20before%20year%20end-8d6e63?style=for-the-badge&labelColor=2b2b2b" alt="Goal: placed before year end">
+<img src="https://img.shields.io/badge/era-folklore-d8cfc0?style=for-the-badge&labelColor=2f2f2f" alt="folklore era">
+<img src="https://img.shields.io/badge/language-C++20-7b7468?style=for-the-badge&labelColor=2f2f2f&logo=cplusplus&logoColor=f8f5ef" alt="C++20">
+<img src="https://img.shields.io/badge/goal-placed%20before%20year%20end-a68a64?style=for-the-badge&labelColor=2f2f2f" alt="placed before year end">
 
 <br><br>
 
-<h3>chapter i: the problem woods</h3>
+<h3>meet me behind the problems</h3>
 
 <p>
-  A quiet, steady archive of CSES solutions.<br>
-  One file, one idea, one accepted verdict at a time.
+  a soft little archive of CSES solutions,<br>
+  written between persistence, pattern recognition, and placement prep.
 </p>
+
+<sub>one accepted verdict at a time.</sub>
 
 </div>
 
 ---
 
-## Field Notes
+## cardigan notes
 
-> The point is not to rush through 300 problems.  
-> The point is to become the kind of person who can sit with a problem, find the pattern, and write it cleanly.
+This repository is my CSES practice journal while I prepare to get placed before the year ends.
 
-This repository tracks my CSES Problem Set journey while preparing for placements before the end of the year. Each solution is meant to be short, readable, and easy to revise later.
+The mood is folklore. The method is discipline.
+
+Each solution should be:
+
+| keep it | meaning |
+|:--|:--|
+| clean | easy to read during revision |
+| direct | no unnecessary overengineering |
+| explained | idea, complexity, and link included |
+| consistent | same style across problems |
 
 ---
 
-## Progress Map
-
-| Trail | Solved | What This Builds |
-|:--|:--:|:--|
-| Introductory Problems | `1 / 19` | implementation, simulation, number sense |
-| Sorting and Searching | `0 / 35` | greedy thinking, binary search, two pointers |
-| Dynamic Programming | `0 / 19` | states, transitions, recurrence discipline |
-| Graph Algorithms | `0 / 36` | BFS, DFS, shortest paths, connectivity |
-| Range Queries | `0 / 20` | prefix sums, Fenwick trees, segment trees |
-| Tree Algorithms | `0 / 16` | rooted trees, binary lifting, tree DP |
-| Mathematics | `0 / 31` | modular arithmetic, combinatorics, primes |
-| String Algorithms | `0 / 17` | hashing, pattern matching, suffix structures |
-| Geometry | `0 / 7` | points, lines, orientation, polygons |
-| Advanced Techniques | `0 / 23` | the late-night chapter |
+## august progress
 
 <div align="center">
 
-### Overall Progress
+<img src="https://progress-bar.dev/1/?scale=300&title=solved&width=460&color=a68a64&suffix=/300" alt="1 out of 300 solved">
 
-<img src="https://progress-bar.dev/1/?scale=300&title=solved&width=420&color=8d6e63&suffix=/300" alt="1 out of 300 solved">
+<br><br>
 
-<br>
-
-`1 / 300`
+### `1 / 300` problems solved
 
 </div>
 
+| track | solved | what it teaches |
+|:--|:--:|:--|
+| introductory problems | `1 / 19` | implementation, simulation, number sense |
+| sorting and searching | `0 / 35` | greedy choices, binary search, two pointers |
+| dynamic programming | `0 / 19` | states, transitions, recurrence discipline |
+| graph algorithms | `0 / 36` | BFS, DFS, shortest paths, connectivity |
+| range queries | `0 / 20` | prefix sums, Fenwick trees, segment trees |
+| tree algorithms | `0 / 16` | rooted trees, binary lifting, tree DP |
+| mathematics | `0 / 31` | modular arithmetic, combinatorics, primes |
+| string algorithms | `0 / 17` | hashing, KMP, suffix structures |
+| geometry | `0 / 7` | points, lines, orientation, polygons |
+| advanced techniques | `0 / 23` | the final chapter |
+
 ---
 
-## The Bookshelf
+## the lakes
 
 ```text
 CSES PROBLEM SET/
@@ -76,9 +84,9 @@ CSES PROBLEM SET/
 
 ---
 
-## Solution Ritual
+## invisible string
 
-Every solution should leave behind enough context for revision season.
+Every solution should leave a thread back to the original problem and the idea used to solve it.
 
 ```cpp
 // Problem: Weird Algorithm
@@ -88,7 +96,7 @@ Every solution should leave behind enough context for revision season.
 // Space: O(1)
 ```
 
-Preferred C++ template:
+Template:
 
 ```cpp
 #include <bits/stdc++.h>
@@ -105,15 +113,15 @@ int main() {
 
 ---
 
-## Current Chapter
+## mirrorball log
 
-| # | Problem | File | Status |
+| # | problem | file | status |
 |:--:|:--|:--|:--:|
-| 1 | Weird Algorithm | [`INTRODUCTORY PROBLEMS/Weird_Algorithm.cpp`](INTRODUCTORY%20PROBLEMS/Weird_Algorithm.cpp) | Accepted-ready |
+| 1 | Weird Algorithm | [`INTRODUCTORY PROBLEMS/Weird_Algorithm.cpp`](INTRODUCTORY%20PROBLEMS/Weird_Algorithm.cpp) | accepted-ready |
 
 ---
 
-## Local Campfire
+## exile from local compiler issues
 
 The workspace is configured for Homebrew GCC:
 
@@ -122,17 +130,17 @@ The workspace is configured for Homebrew GCC:
 /tmp/weird
 ```
 
-VS Code commands:
+VS Code:
 
-| Action | Command |
+| action | command |
 |:--|:--|
-| Build active file | `Cmd + Shift + B` |
-| Run active file | `Terminal > Run Task > C++: run active file` |
-| Reset C++ IntelliSense | `Cmd + Shift + P` then `C/C++: Reset IntelliSense Database` |
+| build active file | `Cmd + Shift + B` |
+| run active file | `Terminal > Run Task > C++: run active file` |
+| reset IntelliSense | `Cmd + Shift + P` then `C/C++: Reset IntelliSense Database` |
 
 ---
 
-## macOS 27 Beta Note
+## this is me trying, macOS edition
 
 This laptop is currently on **macOS 27.0 beta**. Older Command Line Tools packages for Xcode 26.x do not install on this version.
 
@@ -150,17 +158,17 @@ sudo xcode-select --switch /Applications/Xcode-beta.app
 sudo xcodebuild -license accept
 ```
 
-Until then, the CSES online judge or an online compiler is a perfectly valid way to keep moving. Choose `C++17` or `C++20`.
+Until then, submitting directly on CSES or using an online compiler is completely fine. Choose `C++17` or `C++20`.
 
 ---
 
-## Naming Spell
+## seven filename rules
 
 Use underscores instead of spaces:
 
 ```text
-Good:  Weird_Algorithm.cpp
-Avoid: Weird Algorithm.cpp
+good:  Weird_Algorithm.cpp
+avoid: Weird Algorithm.cpp
 ```
 
 Spaces make terminal commands split filenames unless every path is quoted.
@@ -172,12 +180,12 @@ Spaces make terminal commands split filenames unless every path is quoted.
 <h3>the placement arc</h3>
 
 <p>
-  steady practice, sharper pattern recognition,<br>
-  cleaner code, stronger interviews.
+  not a sprint, not a breakdown,<br>
+  just showing up until the patterns start showing back.
 </p>
 
-<img src="https://img.shields.io/badge/author-Sonam%20Narula-6b705c?style=flat-square&labelColor=2b2b2b" alt="Author">
-<img src="https://img.shields.io/badge/era-folklore-b5835a?style=flat-square&labelColor=2b2b2b" alt="Folklore era">
-<img src="https://img.shields.io/badge/mission-placement%20before%20year%20end-8d6e63?style=flat-square&labelColor=2b2b2b" alt="Mission: placement before year end">
+<img src="https://img.shields.io/badge/author-Sonam%20Narula-d8cfc0?style=flat-square&labelColor=2f2f2f" alt="Sonam Narula">
+<img src="https://img.shields.io/badge/soundtrack-folklore-7b7468?style=flat-square&labelColor=2f2f2f" alt="folklore">
+<img src="https://img.shields.io/badge/mission-placement%20before%20year%20end-a68a64?style=flat-square&labelColor=2f2f2f" alt="placement before year end">
 
 </div>

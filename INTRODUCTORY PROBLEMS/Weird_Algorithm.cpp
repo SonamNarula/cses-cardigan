@@ -41,3 +41,23 @@ int main() {
 
     return 0;
 }
+
+// Start
+//   ↓
+// Check n
+//   ↓
+// Even? ───── YES → n / 2
+//   │
+//   NO
+//   ↓
+// 3n + 1
+//   ↓
+// Print
+//   ↓
+// n == 1?
+//   │
+//  NO ─────→ Repeat
+//   │
+//  YES
+//   ↓
+//  End
