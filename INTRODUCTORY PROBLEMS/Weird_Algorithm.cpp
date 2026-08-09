@@ -20,27 +20,23 @@
 using namespace std;
 
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
     long long n;
     cin >> n;
 
-    // Keep applying the rules until n becomes 1
     while(n != 1) {
-
         cout << n << " ";
 
-        // If n is even, divide it by 2
         if(n % 2 == 0) {
             n /= 2;
         }
-
-        // If n is odd, multiply by 3 and add 1
         else {
             n = 3 * n + 1;
         }
     }
 
-    // Print the final 1
     cout << 1 << endl;
 
     return 0;
