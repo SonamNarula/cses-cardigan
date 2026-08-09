@@ -1,73 +1,75 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:2f2f2f,45:7b7468,100:d8cfc0&text=cses%20problem%20set&fontColor=f8f5ef&fontSize=44&desc=placement%20prep%20in%20my%20folklore%20era&descAlignY=68&descSize=16" alt="cses problem set banner">
-
-<br>
-
-<img src="https://img.shields.io/badge/era-folklore-d8cfc0?style=for-the-badge&labelColor=2f2f2f" alt="folklore era">
-<img src="https://img.shields.io/badge/language-C++20-7b7468?style=for-the-badge&labelColor=2f2f2f&logo=cplusplus&logoColor=f8f5ef" alt="C++20">
-<img src="https://img.shields.io/badge/goal-placed%20before%20year%20end-a68a64?style=for-the-badge&labelColor=2f2f2f" alt="placed before year end">
+<img src="https://capsule-render.vercel.app/api?type=blur&height=220&color=0:050505,30:2b2b2b,55:f7f7f7,100:111111&text=cses%20problem%20set&fontColor=ffffff&fontSize=42&desc=black%20and%20white%20folklore%20era%20//%20placement%20prep&descAlignY=70&descSize=15" alt="cses problem set glass banner">
 
 <br><br>
 
-<h3>meet me behind the problems</h3>
+<img src="https://img.shields.io/badge/folklore%20era-0b0b0b?style=for-the-badge&labelColor=eeeeee&color=0b0b0b" alt="folklore era">
+<img src="https://img.shields.io/badge/C++20-181818?style=for-the-badge&labelColor=f6f6f6&logo=cplusplus&logoColor=111111" alt="C++20">
+<img src="https://img.shields.io/badge/placed%20before%20year%20end-0b0b0b?style=for-the-badge&labelColor=eeeeee" alt="placed before year end">
 
-<p>
-  a soft little archive of CSES solutions,<br>
-  written between persistence, pattern recognition, and placement prep.
-</p>
+<br><br>
 
-<sub>one accepted verdict at a time.</sub>
+# cses problem set
+
+### quiet practice. clean code. glass-table focus.
+
+<sub>placement prep, but make it black-and-white folklore.</sub>
 
 </div>
 
 ---
-
-## cardigan notes
-
-This repository is my CSES practice journal while I prepare to get placed before the year ends.
-
-The mood is folklore. The method is discipline.
-
-Each solution should be:
-
-| keep it | meaning |
-|:--|:--|
-| clean | easy to read during revision |
-| direct | no unnecessary overengineering |
-| explained | idea, complexity, and link included |
-| consistent | same style across problems |
-
----
-
-## august progress
 
 <div align="center">
 
-<img src="https://progress-bar.dev/1/?scale=300&title=solved&width=460&color=a68a64&suffix=/300" alt="1 out of 300 solved">
-
-<br><br>
-
-### `1 / 300` problems solved
+|  |  |
+|:--|:--|
+| **current arc** | placement before year end |
+| **language** | C++20 |
+| **judge** | CSES |
+| **mood** | classy · glassy · monochrome |
+| **pace** | one accepted verdict at a time |
 
 </div>
 
-| track | solved | what it teaches |
-|:--|:--:|:--|
-| introductory problems | `1 / 19` | implementation, simulation, number sense |
-| sorting and searching | `0 / 35` | greedy choices, binary search, two pointers |
-| dynamic programming | `0 / 19` | states, transitions, recurrence discipline |
-| graph algorithms | `0 / 36` | BFS, DFS, shortest paths, connectivity |
-| range queries | `0 / 20` | prefix sums, Fenwick trees, segment trees |
-| tree algorithms | `0 / 16` | rooted trees, binary lifting, tree DP |
-| mathematics | `0 / 31` | modular arithmetic, combinatorics, primes |
-| string algorithms | `0 / 17` | hashing, KMP, suffix structures |
-| geometry | `0 / 7` | points, lines, orientation, polygons |
-| advanced techniques | `0 / 23` | the final chapter |
+---
+
+## overview
+
+This is my CSES practice journal: a clean archive of C++ solutions built for revision, interviews, and steady placement prep.
+
+The README aesthetic is intentionally minimal: black, white, soft gray, and a glassmorphism-inspired layout that still renders cleanly on GitHub.
 
 ---
 
-## the lakes
+## progress
+
+<div align="center">
+
+<img src="https://progress-bar.dev/1/?scale=300&title=solved&width=500&color=111111&suffix=/300" alt="1 out of 300 solved">
+
+<br><br>
+
+### `1 / 300` solved
+
+</div>
+
+| section | solved | focus |
+|:--|:--:|:--|
+| introductory problems | `1 / 19` | implementation, simulation, basics |
+| sorting and searching | `0 / 35` | greedy, binary search, two pointers |
+| dynamic programming | `0 / 19` | states, transitions, recurrence |
+| graph algorithms | `0 / 36` | BFS, DFS, shortest paths |
+| range queries | `0 / 20` | prefix sums, Fenwick, segment tree |
+| tree algorithms | `0 / 16` | binary lifting, DFS, tree DP |
+| mathematics | `0 / 31` | modular arithmetic, combinatorics |
+| string algorithms | `0 / 17` | hashing, KMP, suffix structures |
+| geometry | `0 / 7` | points, lines, orientation |
+| advanced techniques | `0 / 23` | harder patterns |
+
+---
+
+## structure
 
 ```text
 CSES PROBLEM SET/
@@ -84,9 +86,9 @@ CSES PROBLEM SET/
 
 ---
 
-## invisible string
+## solution format
 
-Every solution should leave a thread back to the original problem and the idea used to solve it.
+Each solution should be small enough to revise and clear enough to trust.
 
 ```cpp
 // Problem: Weird Algorithm
@@ -113,17 +115,17 @@ int main() {
 
 ---
 
-## mirrorball log
+## solved log
 
 | # | problem | file | status |
 |:--:|:--|:--|:--:|
-| 1 | Weird Algorithm | [`INTRODUCTORY PROBLEMS/Weird_Algorithm.cpp`](INTRODUCTORY%20PROBLEMS/Weird_Algorithm.cpp) | accepted-ready |
+| 1 | Weird Algorithm | [`INTRODUCTORY PROBLEMS/Weird_Algorithm.cpp`](INTRODUCTORY%20PROBLEMS/Weird_Algorithm.cpp) | done |
 
 ---
 
-## exile from local compiler issues
+## run locally
 
-The workspace is configured for Homebrew GCC:
+This workspace is configured for Homebrew GCC:
 
 ```bash
 /opt/homebrew/bin/g++-15 -std=c++20 -O2 -Wall -Wextra -Wshadow Weird_Algorithm.cpp -o /tmp/weird
@@ -140,7 +142,7 @@ VS Code:
 
 ---
 
-## this is me trying, macOS edition
+## macOS note
 
 This laptop is currently on **macOS 27.0 beta**. Older Command Line Tools packages for Xcode 26.x do not install on this version.
 
@@ -151,7 +153,7 @@ fatal error: assert.h: No such file or directory
 fatal error: wchar.h: No such file or directory
 ```
 
-the missing piece is the matching Apple SDK. Install **Xcode 27 beta**, then select it:
+install **Xcode 27 beta**, then select it:
 
 ```bash
 sudo xcode-select --switch /Applications/Xcode-beta.app
@@ -162,7 +164,7 @@ Until then, submitting directly on CSES or using an online compiler is completel
 
 ---
 
-## seven filename rules
+## filename rule
 
 Use underscores instead of spaces:
 
@@ -177,15 +179,18 @@ Spaces make terminal commands split filenames unless every path is quoted.
 
 <div align="center">
 
-<h3>the placement arc</h3>
+<br>
 
-<p>
-  not a sprint, not a breakdown,<br>
-  just showing up until the patterns start showing back.
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&size=20&duration=3400&pause=900&color=111111&center=true&vCenter=true&width=760&lines=this+is+me+trying%2C+but+with+code.;glass+focus%2C+quiet+discipline.;placed+before+year+end.;one+problem+at+a+time." alt="typing line">
 
-<img src="https://img.shields.io/badge/author-Sonam%20Narula-d8cfc0?style=flat-square&labelColor=2f2f2f" alt="Sonam Narula">
-<img src="https://img.shields.io/badge/soundtrack-folklore-7b7468?style=flat-square&labelColor=2f2f2f" alt="folklore">
-<img src="https://img.shields.io/badge/mission-placement%20before%20year%20end-a68a64?style=flat-square&labelColor=2f2f2f" alt="placement before year end">
+<br><br>
+
+<img src="https://img.shields.io/badge/author-Sonam%20Narula-111111?style=flat-square&labelColor=f5f5f5" alt="Sonam Narula">
+<img src="https://img.shields.io/badge/aesthetic-black%20%2F%20white%20%2F%20glass-111111?style=flat-square&labelColor=f5f5f5" alt="black white glass aesthetic">
+<img src="https://img.shields.io/badge/mission-placement%20before%20year%20end-111111?style=flat-square&labelColor=f5f5f5" alt="placement before year end">
+
+<br><br>
+
+<sub>soft visuals. sharp logic.</sub>
 
 </div>
